@@ -38,7 +38,7 @@ fun_features: # 一些好玩的功能
     visible: hover # 默认悬浮显示，可选：hover（鼠标在元素上悬浮时显示） | always（一直显示） | touch（移动端触摸显示）
     icon: "" # 可选：§ | # | ❡ 等，留空则为默认效果
   mouse_click:  # 鼠标点击动效
-    enable: false
+    enable: true
     style: values # 目前设置两个值：values（价值观词汇） | love（爱心）
 
 color:  # 主题颜色配置，不一定能每一处都生效，可能会被局部样式覆盖，这种情况建议用自定义 css 解决。配色可以在这获得启发： https://www.webdesignrankings.com/resources/lolcolors/
@@ -157,7 +157,7 @@ scroll_top_arrow:  # 向顶部滚动的箭头
 # Index Page
 #---------------------------
 index:
-  banner_img: 'https://image0.cdn.mtrstatic.tk/o.jpg'  # 首页 Banner 头图，以下相同
+  banner_img: 'https://zsz1447.gitee.io/pics-mirror/o.jpg'  # 首页 Banner 头图，以下相同
   banner_img_height: 100  # 头图高度，屏幕百分比，available: 0 - 100
   banner_mask_alpha: 0.3  # 头图黑色蒙版的透明度，available: 0 - 1.0， 0 是完全透明（无蒙版），1 是完全不透明
   post_default_img: '' # 默认的文章封面图，当没有指定 index_img 时会使用该图片，若都为空则不显示任何图片
